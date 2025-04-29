@@ -9,17 +9,18 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-10 pt-16 pb-8 flex flex-col justify-center">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div>
-            <div className="flex items-center space-x-2 mb-6">
+            <div className="flex items-center flex-col space-x-2 mb-6 gap-5">
             <div className="rounded-lg">
             {/* <span className="text-white font-bold text-xl">SM</span> */}
              <img src="Logo Full size.jpg" alt="Logo" className="h-12" />
             </div>
 
-              <span className="text-xl font-display font-semibold">Smart Skills Academy</span>
-            </div>
-            <p className="text-white/80 mb-6">
+              {/* <span className="text-xl font-display font-semibold">Smart Skills Academy</span> */}
+              <p className="text-white/80 mb-6">
               Empowering the youth with industry-relevant skills and hands-on experience.
             </p>
+            </div>
+            
 
           </div>
           

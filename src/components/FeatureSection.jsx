@@ -281,7 +281,7 @@ const FeatureSection = () => {
             </h3>
             <p className="text-lg opacity-90 mb-8 leading-relaxed">
               Join hundreds of students who have accelerated their careers with our practical,
-              job-focused tech training programs.
+              job-focused training programs.
             </p>
             <div className="space-y-4">
               {["24/7 Expert Support", "Flexible Learning Path", "Job Placement Assistance"].map((benefit, index) => (
