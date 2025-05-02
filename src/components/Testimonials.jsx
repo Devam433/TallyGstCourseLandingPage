@@ -74,7 +74,7 @@ export default function TestimonialsSection() {
           </h2>
           <p className="text-lg text-black/70 max-w-2xl mx-auto">
             Our students come from diverse backgrounds but share a common goal:
-            to become professional web developers.
+            to become a Tally Expert and be job ready.
           </p>
         </div>
 
@@ -101,7 +101,7 @@ export default function TestimonialsSection() {
                         <img
                           src={testimonial.image}
                           alt={testimonial.name}
-                          className="w-12 h-12 rounded-full mr-4 object-cover"
+                          className="hidden sm:block w-12 h-12 rounded-full mr-4 object-cover"
                           loading="lazy"
                         />
                         <div>

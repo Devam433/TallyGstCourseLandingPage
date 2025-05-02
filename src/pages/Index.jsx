@@ -15,13 +15,11 @@ function Index() {
       {/* <CourseSection /> */}
       <Testimonials/>
       <FeatureSection/>
-
-      {/* Floating WhatsApp Icon */}
-      {/* <a
-        href="https://wa.me/yourphonenumber" //ssa number
+      <a
+        href="https://wa.me/+916002113161" //ssa number
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-5 right-5 bg-green-500 rounded-full p-3 shadow-lg hover:bg-green-600 transition duration-300 hover"
+        className="fixed bottom-5 right-5 bg-green-500 rounded-full p-3 shadow-lg hover:bg-green-600 transition duration-300 hover z-50"
          data-aos="flip-left"
       >
         <img
@@ -29,7 +27,7 @@ function Index() {
           alt="WhatsApp"
           className="w-12 h-12"
         />
-      </a> */}
+      </a>
     </div>
   );
 }

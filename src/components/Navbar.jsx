@@ -41,10 +41,11 @@ function Navbar() {
               </a>
             ))}
           </nav>
-          
+          <a href="#contact-us">
           <button className="px-6 py-2.5 bg-blue-100 text-blue-950 rounded-full font-semibold hover:bg-blue-50 transition-colors duration-200">
             Enroll Now
           </button>
+          </a>
         </div>
 
         {/* Mobile Navigation */}

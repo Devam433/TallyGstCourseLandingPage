@@ -174,7 +174,7 @@ const Hero = () => {
   <div className="container-custom relative">
     <div className="grid md:grid-cols-2 gap-12 items-center">
       <div className={`transition-all duration-700 delay-100 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-        <div className="inline-flex items-center px-4 py-2 bg-[#DFEAF0] rounded-full text-[#87ACE3] text-sm font-medium mb-6 border border-blue-500">
+        <div className="inline-flex items-center px-4 py-2 bg-[#DFEAF0] rounded-full text-[#1b4b93] text-sm font-medium mb-6 border border-blue-500">
           <span className="animate-pulse mr-2 "></span> Best In Biswanath Chariali
         </div>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-black">
@@ -201,11 +201,13 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-wrap gap-4">
+          <a href="#contact-us">
           <Button 
             className="border-[#87ACE3] text-[#87ACE3] hover:bg-[#5e9fd6] hover:text-white hover:border flex gap-2 items-center hover:gap-4 transition-all"
           >
             Enroll <ArrowRight size={20} />
           </Button>
+          </a>
         </div>
 
         <div className="flex items-center mt-8">
